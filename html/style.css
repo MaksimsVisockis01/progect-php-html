@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'SF-Pro-Display-Regular';
+    src: url("../fonts/Sf-Pro-Display-Regular.OTF") format('truetype');
+}
+
+@font-face {
+    font-family: 'SF-Pro-Display-Bold';
+    src: url("../fonts/Sf-Pro-Display-Bold.OTF") format('truetype');
+}
+
+
+body {
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'SF-Pro-Display-Bold';
+    flex-direction: column;
+}
+
+#screen{
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+header > h1{
+    color: #FFFFFF;
+    font-size: 55px;
+
+}
+
+header > a{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+}
+.column > h1, .ticket > h4{
+    margin: 0;
+    padding: 0;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #262626;
+    width: 330px;
+    color: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    gap: 20px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 25px;
+}
+.ticket{
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'SF-Pro-Display-Regular';
+}
+
+.label{
+    color: rgba(255, 255, 255, 0.75); 
+    border: 1px solid white;
+    padding: 2px 5px 2px 5px;
+    border-radius: 4px;
+}
+
+.label-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.purple{
+    background: #C440A1;
+}
+.blue{
+    background: #6A6DCD;
+}
+.red{
+    background: #D93535;
+}
+.green{
+    background: #00A88B;
+}
